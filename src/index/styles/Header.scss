@@ -1,7 +1,11 @@
-header {
-  background: blue;
+.page-header {
   max-width: 1440px;
   position: absolute;
   width: 100%;
   z-index: 2;
+  &__items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
 }

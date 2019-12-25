@@ -7,13 +7,19 @@ class Header extends Component {
   render() {
     return (
       <header className="page-header">
-        <nav>
-          <ul>
+        <nav className="page-header__nev">
+          <ul className="page-header__items">
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">About us</Link>
+            </li>
+            <li>
+              <Link to="/about">Team</Link>
+            </li>
+            <li>
+              <Link to="/">Contact us</Link>
             </li>
           </ul>
         </nav>

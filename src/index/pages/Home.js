@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div className="communication">
-        <div>
+        <div className="communication__title">
           <h1>Communication</h1>
           <p>
             Lorem ipsum dolor sit amet, conse cetur adipiscing elit, sed do
