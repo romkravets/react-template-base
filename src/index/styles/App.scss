@@ -1,0 +1,45 @@
+.page-wrapper {
+  min-height: 100vh;
+  background: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.communication {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  align-items: center;
+  z-index: 2;
+  &__title {
+  }
+  &__img {
+    max-width: 400px;
+  }
+}
+
+.mein-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  &__top-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 400px;
+    z-index: 1;
+  }
+  &__bottom-img {
+    position: absolute;
+    max-width: 600px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+.page-footer {
+  background: saddlebrown;
+}
