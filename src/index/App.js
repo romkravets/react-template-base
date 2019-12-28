@@ -18,30 +18,17 @@ class App extends Component {
         <div className="page-wrapper">
           <Header />
           <main className="mein-content">
-            <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-              {/* <Route path="/users">
-                <Users />
-              </Route> */}
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
-            {/* <div className="communication">
-              <div>
-                <h1>Communication</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, conse cetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolor.
-                </p>
-                <button>Learn More</button>
-              </div>
-              <div>
-                <img className="communication__img" src={peppleImg} />
-              </div>
-            </div> */}
+            <div className="communication">
+              <Switch>
+                <Route exact path="/">
+                  <Home />
+                </Route>
+
+                <Route path="/about">
+                  <About />
+                </Route>
+              </Switch>
+            </div>
           </main>
           <img className="mein-content__bottom-img" src={bottomObject} />
           <img className="mein-content__top-img" src={topObject} />

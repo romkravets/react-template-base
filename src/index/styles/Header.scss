@@ -7,5 +7,11 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
+    padding: 0;
+  }
+  &__link {
+    text-decoration: none;
+    color: #4a5d8b;
+    font-size: 1.5rem;
   }
 }
