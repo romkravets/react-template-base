@@ -262,10 +262,12 @@ function (_Component) {
         className: "communication"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
         exact: true,
-        path: "react-template-base/"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_Home_js__WEBPACK_IMPORTED_MODULE_4__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
-        path: "react-template-base/about"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_About_js__WEBPACK_IMPORTED_MODULE_3__["default"], null))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        path: "/",
+        component: _pages_Home_js__WEBPACK_IMPORTED_MODULE_4__["default"]
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+        path: "/about",
+        component: _pages_About_js__WEBPACK_IMPORTED_MODULE_3__["default"]
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "mein-content__bottom-img",
         src: _assets_images_bottom_object_png__WEBPACK_IMPORTED_MODULE_7___default.a
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -403,27 +405,27 @@ function (_Component) {
         className: "page-header__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "page-header__link",
-        to: "react-template-base/"
+        to: "/"
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "page-header__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "page-header__link",
-        to: "react-template-base/about"
+        to: "/about"
       }, "Blog")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "page-header__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "page-header__link",
-        to: "react-template-base/about"
+        to: "/about"
       }, "About us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "page-header__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "page-header__link",
-        to: "react-template-base/about"
+        to: "/about"
       }, "Team")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "page-header__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "page-header__link",
-        to: "react-template-base/"
+        to: "/"
       }, "Contact us")))));
     }
   }]);
