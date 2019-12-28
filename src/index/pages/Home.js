@@ -7,7 +7,7 @@ import peppleImg from "../../../assets/images/peopple.png";
 class Home extends Component {
   render() {
     return (
-      <div className="communication">
+      <React.Fragment>
         <div className="communication__title">
           <h1>Communication</h1>
           <p>
@@ -19,7 +19,7 @@ class Home extends Component {
         <div>
           <img className="communication__img" src={peppleImg} />
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
