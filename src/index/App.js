@@ -20,12 +20,12 @@ class App extends Component {
           <main className="mein-content">
             <div className="communication">
               <Switch>
-                <Route exact path="react-template-base/">
-                  <Home />
+                <Route exact path="/" component={Home}>
+                  {/* <Home /> */}
                 </Route>
 
-                <Route path="react-template-base/about">
-                  <About />
+                <Route path="/about" component={About}>
+                  {/* <About /> */}
                 </Route>
               </Switch>
             </div>

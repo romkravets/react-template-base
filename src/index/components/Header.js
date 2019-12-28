@@ -10,36 +10,27 @@ class Header extends Component {
         <nav className="page-header__nev">
           <ul className="page-header__items">
             <li className="page-header__item">
-              <Link className="page-header__link" to="react-template-base/">
+              <Link className="page-header__link" to="/">
                 Home
               </Link>
             </li>
             <li className="page-header__item">
-              <Link
-                className="page-header__link"
-                to="react-template-base/about"
-              >
+              <Link className="page-header__link" to="/about">
                 Blog
               </Link>
             </li>
             <li className="page-header__item">
-              <Link
-                className="page-header__link"
-                to="react-template-base/about"
-              >
+              <Link className="page-header__link" to="/about">
                 About us
               </Link>
             </li>
             <li className="page-header__item">
-              <Link
-                className="page-header__link"
-                to="react-template-base/about"
-              >
+              <Link className="page-header__link" to="/about">
                 Team
               </Link>
             </li>
             <li className="page-header__item">
-              <Link className="page-header__link" to="react-template-base/">
+              <Link className="page-header__link" to="/">
                 Contact us
               </Link>
             </li>
