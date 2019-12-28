@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700&display=swap);
-.page-header{max-width:1440px;position:absolute;width:100%;z-index:2}.page-header__items{display:flex;list-style:none;justify-content:space-around}
+.page-header{max-width:1440px;position:absolute;width:100%;z-index:2}.page-header__items{display:flex;list-style:none;justify-content:space-around;padding:0}.page-header__link{text-decoration:none;color:#4a5d8b;font-size:1.5rem}
 
 .page-wrapper{min-height:100vh;background:#ffffff;max-width:1440px;margin:0 auto;position:relative}.communication{display:flex;position:relative;height:100vh;align-items:center}.communication__title{z-index:2}.communication__img{max-width:400px}.mein-content{display:flex;flex-direction:column;align-items:center;flex-grow:1}.mein-content__top-img{position:absolute;top:0;right:0;max-width:400px;z-index:1}.mein-content__bottom-img{position:absolute;max-width:600px;left:0;bottom:0;z-index:1}.page-footer{background:saddlebrown}
 
