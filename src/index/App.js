@@ -20,12 +20,12 @@ class App extends Component {
           <main className="mein-content">
             <div className="communication">
               <Switch>
-                <Route exact path="/" component={Home}>
-                  {/* <Home /> */}
+                <Route exact path="/">
+                  <Home />
                 </Route>
 
-                <Route path="/about" component={About}>
-                  {/* <About /> */}
+                <Route path="/about">
+                  <About />
                 </Route>
               </Switch>
             </div>
